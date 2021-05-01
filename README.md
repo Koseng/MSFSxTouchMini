@@ -50,12 +50,12 @@ After the start of MSFS2020 start X-Touch_mini-FS2020.exe. The button and knobs 
 ### Default configuration of X-Touch-Mini-FS2020:
 
 **Knobs**
-* Knob1 - Heading bug
-* Knob2 - Baro
-* Knob3 - Alt bug
+* Knob1 - Heading bug | Press - Set heading bug to current heading.
+* Knob2 - Baro | Press - Set to standard baro.
+* Knob3 - Alt bug 
 * Knob4 - VS bug
-* Knob5 - COM
-* Knob6 - NAV1
+* Knob5 - COM | Press - Alternate to decimal places | Long press - swap frequencies
+* Knob6 - NAV1 | Press - Alternate to decimal places | Long press - swap frequencies
 
 **ROW 1**
 * Button1 - Flight Director
