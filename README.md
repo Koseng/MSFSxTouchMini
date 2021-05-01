@@ -25,7 +25,7 @@ This needs only to be done once.
 * ![Picture Editor](Pics/xTouchEditor.png) 
 * Load configuration A from X-Touch-Mini-FS2020 and save it on your X-Touch mini
   * PRESETS ON COMPUTER -> Load
-  * Select LayerA.bin from X-Toch-Editor-Configs in your X-Touch-Mini-FS2020 folder.
+  * Select LayerA.bin from X-Tooch-Editor-Configs in your X-Touch-Mini-FS2020 folder.
   * ![Picture LoadLayer](Pics/loadLayerA.png) 
   * TO HARDWARE -> Dump A 
 * Repeat the same for configuration B. Load LayerB.bin and Dump B.
