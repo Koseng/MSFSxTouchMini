@@ -7,7 +7,7 @@ Installation and Configuration of Behringer X-Touch Mini for Microsoft Flight Si
 Needed Software:
 * [X-Touch-Mini-FS2020](https://github.com/maartentamboer/X-Touch-Mini-FS2020): 
   * Needs to run while the flighsim is running. This software is the communication bridge between the X-Touch Mini and the flighsim. It converts the midi signals to the flightsim simconnect interface.
-* [Mobiflight Addon](https://www.mobiflight.com/en/download.html):
+* [Mobiflight Addon](https://www.mobiflight.com):
   * Mobiflight installs an addon to the community folder. This exposes special variables to the simconnect interface and makes them accessible for other external software like the X-Touch-Mini-FS2020.
 * [Behringer X-Touch Editor](https://www.behringer.com/product.html?modelCode=P0B3M):
   * That is needed to make a configuration change to the dial knobs.
@@ -29,3 +29,20 @@ This needs only to be done once.
   * ![Picture LoadLayer](Pics/loadLayerA.png) 
   * TO HARDWARE -> Dump A 
 * Repeat the same for configuration B. Load LayerB.bin and Dump B.
+
+### Install MobiFlight addon
+
+* Download MobiFlightConnector-8.0.2.9.zip from [Mobiflight](https://bitbucket.org/mobiflight/mobiflightfc/downloads/). Extract zip and save software in a folder.
+* Run MFConnector.exe from Mobiflight folder. 
+* Execute: Extras -> MSFS2020 -> Install WASM Module
+* Execute: Extras -> MSFS2020 -> Download Latest Events
+* ![Picture Mobiflight](Pics/mobiflight.png) 
+* Now there is the Mobiflight addon in the flightsim Community folder.
+
+## Configuration of buttons and knobs
+
+Configuration is done via the files in X-Touch-Mini-FS2020\Configurations
+
+## Usage
+
+After the start of MSFS2020 start X-Touch_mini-FS2020.exe. The button and knobs layout changes automatically for different planes according to the configuration.
