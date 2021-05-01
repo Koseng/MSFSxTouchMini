@@ -46,3 +46,32 @@ Configuration is done via the files in X-Touch-Mini-FS2020\Configurations
 ## Usage
 
 After the start of MSFS2020 start X-Touch_mini-FS2020.exe. The button and knobs layout changes automatically for different planes according to the configuration.
+
+### Default configuration of X-Touch-Mini-FS2020:
+* Knob1 - Heading bug
+* Knob2 - Baro
+* Knob3 - Alt bug
+* Knob4 - VS bug
+* Knob5 - COM
+* Knob6 - NAV1
+
+ROW 1
+* Button1 - Flight Director
+* Button2 - HDG
+* Button3 - ALT
+* Button4 - VS
+* Button5 - APR
+* Button6 
+* Button7
+* Button8 - Decrease Flaps
+
+ROW 2
+* Button9 - AP
+* Button10 - NAV
+* Button11
+* Button12 - AP flight level change
+* Button13 - YD
+* Button14 - Master Battery
+* Button15 - Gear
+* Button16 - Increase Flaps
+* 
