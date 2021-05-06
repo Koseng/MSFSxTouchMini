@@ -16,7 +16,7 @@ Needed Software:
 
 ### Make firmware configuration change to Behringer X-Touch Mini
 
-**This needs only to be done only once.**
+**This needs to be done only once.**
 
 * Download [X-Touch-Mini-FS2020](https://github.com/maartentamboer/X-Touch-Mini-FS2020/releases). Extract zip and save software in a folder.
 * Download X-Touch Editor from [Behringer Website](https://www.behringer.com/product.html?modelCode=P0B3M). Software -> Editor for Windows V1.21. Or try this direct [Link](https://mediadl.musictribe.com/download/software/behringer/X-TOUCH/X-TOUCH-EDITORv1-21.zip). Extract zip and save software in a folder.
