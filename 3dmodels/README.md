@@ -5,9 +5,9 @@ For 3D printing download the .stl files.
 * [SpeedKnob.stl](./SpeedKnob.stl)
 * [HdgKnob.stl](./HdgKnob.stl)
 * [AltKnob.stl](./AltKnob.stl)
-* [xTouchLeft.stl](./xTouchLeft.stl)
-* [xTouchRight.stl](./xTouchRight.stl)
-* [xTouchTotal.stl](./xTouchTotal.stl)
+* [xtouchLeft.stl](./xtouchLeft.stl)
+* [xtouchRight.stl](./xtouchRight.stl)
+* [xtouchTotal.stl](./xtouchTotal.stl)
 
 ![Picture Range Knob](../Pics/rangeKnobSmall.png) ![Picture Speed Knob](../Pics/speedKnobSmall.png) ![Picture Heading Knob](../Pics/hdgKnobSmall.png) ![Picture Alt Knob](../Pics/altKnobSmall.png))
 
