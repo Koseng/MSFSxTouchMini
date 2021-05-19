@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="110.22mm" height="40.369mm" version="1.1" viewBox="0 0 110.22 40.369" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<svg width="115.2mm" height="42.192mm" version="1.1" viewBox="0 0 115.2 42.192" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
  <metadata>
   <rdf:RDF>
    <cc:Work rdf:about="">
@@ -9,9 +9,9 @@
    </cc:Work>
   </rdf:RDF>
  </metadata>
- <g transform="translate(-71.04 -101.43)">
+ <g transform="translate(-10.564 -95.76)">
   <g transform="matrix(.26458 0 0 .26458 66.826 106.12)">
-   <g transform="matrix(1.7591 .12241 0 -1.7591 224.23 58.571)" fill="none" stroke-width=".56848">
+   <g transform="matrix(1.8385 .12794 0 -1.8385 5.0598 40.587)" fill="none" stroke-width=".56848">
     <!-- hidden lines -->
     <g stroke="#a0a0a0" stroke-dasharray="0.568477, 0.568477">
      <path d="m-107.13-45.487-0.4452-1.3053"/>
