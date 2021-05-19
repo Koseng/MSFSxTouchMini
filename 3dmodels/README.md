@@ -18,7 +18,7 @@ For 3D printing download the .stl files.
 # How to change labels and create your own plate
 The 3D model is created with [CadQuery](https://github.com/CadQuery/cadquery). CadQuery is a scripting language to create 3D models. 
 * [Download](https://github.com/CadQuery/CQ-editor/releases/download/0.2/CQ-editor-Windows.zip) and extract the free [CQ-editor](https://github.com/CadQuery/CQ-editor).  
-* Download the [script files](./CadQuery)
+* Download the [script files](./CadQuery) via the [release package](https://github.com/Koseng/MSFSxTouchMini/releases)
 * Start CQ-Editor with CQ-editor.cmd
 * Open Script file in CQ-Editor
 * Adjust topTexts or texts and press the green play button
