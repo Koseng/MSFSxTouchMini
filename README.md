@@ -26,7 +26,7 @@ Follow those steps:
 
 Configuration is done via the files in X-Touch-Mini-FS2020\Configurations
 
-* [Configuration](Configurations/README.MD)
+* [Configuration for FlyByWire A320 Dev Version](Configurations/README.MD)
 
 ## Usage
 
