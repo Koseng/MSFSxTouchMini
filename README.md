@@ -26,6 +26,8 @@ Follow those steps:
 
 Configuration is done via the files in X-Touch-Mini-FS2020\Configurations
 
+* [Configuration](Configurations/README.md)
+
 ## Usage
 
 * Connect the X-Touch mini via USB
