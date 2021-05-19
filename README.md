@@ -3,7 +3,8 @@ Installation and Configuration of Behringer X-Touch Mini for Microsoft Flight Si
 
 ![Picture xTouch](Pics/xTouchPlate.jpg)
 
-## [3D models for printing](3dmodels/README.md)
+## 3D models for printing
+* [3D models for printing](3dmodels/README.md)
 
 ## Overview
 ![Picture Overview](Pics/overview.png)
@@ -16,7 +17,9 @@ Needed Software:
 * [Behringer X-Touch Editor](https://www.behringer.com/product.html?modelCode=P0B3M):
   * That is needed to make a configuration change to the dial knobs.
 
-## [Installation and setup](installation/README.md)
+## Installation and setup
+Follow those steps:
+* [Installation and setup](installation/README.md)
 
 
 ## Configuration of buttons and knobs
