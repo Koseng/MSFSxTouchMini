@@ -1,0 +1,209 @@
+{
+  "$schema": "./config.schema.json",
+  "version":
+  {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "encoders": [
+    {
+      "index": 1,
+	  "event_up": "KOHLSMAN_INC",
+      "event_down": "KOHLSMAN_DEC",
+      "event_short_press": { "event": "MobiFlight.XMLVAR_Baro1_Mode_STD", "type": "manual", "value": 1 },
+	  "event_long_press":  { "event": "MobiFlight.XMLVAR_Baro1_Mode_QNH", "type": "manual", "value": 1 }
+    },
+    {
+      "index": 2,
+	  "event_up": { "event": "MobiFlight.A320_Neo_MFD_NAV_MODE_1_INC", "type": "manual", "value": 1 },
+      "event_down": { "event": "MobiFlight.A320_Neo_MFD_NAV_MODE_1_DEC", "type": "manual", "value": 1 }
+    },
+    {
+      "index": 3,
+	  "event_up": { "event": "MobiFlight.A320_Neo_MFD_Range_1_INC", "type": "manual", "value": 1 },
+      "event_down": { "event": "MobiFlight.A320_Neo_MFD_Range_1_DEC", "type": "manual", "value": 1 }
+    },
+    {
+      "index": 4,
+	  "event_up": { "event": "A32NX.FCU_SPD_INC", "type": "manual", "value": 1 },
+      "event_down": { "event": "A32NX.FCU_SPD_DEC", "type": "manual", "value": 1 },
+	  "event_short_press": [{ "event": "A32NX.FCU_SPD_PULL", "type": "manual", "value": 1 }, 
+					        { "event": "Functions/A320/speed-encoder-led-on.jinja2", "type": "condition-file" } ],
+	  "event_long_press": [{ "event": "A32NX.FCU_SPD_PUSH", "type": "manual", "value": 1 }, 
+					       { "event": "Functions/A320/speed-encoder-led-off.jinja2", "type": "condition-file" } ]
+    },
+    {
+      "index": 5,
+	  "event_up": { "event": "A32NX.FCU_HDG_INC", "type": "manual", "value": 1 },
+      "event_down": { "event": "A32NX.FCU_HDG_DEC", "type": "manual", "value": 1 },
+	  "event_short_press": [{ "event": "A32NX.FCU_HDG_PULL", "type": "manual", "value": 1 }, 
+					        { "event": "Functions/A320/hdg-encoder-led-on.jinja2", "type": "condition-file" } ],
+	  "event_long_press": [{ "event": "A32NX.FCU_HDG_PUSH", "type": "manual", "value": 1 }, 
+					       { "event": "Functions/A320/hdg-encoder-led-off.jinja2", "type": "condition-file" } ]
+    },
+    {
+      "index": 6,
+	  "event_up": { "event": "A32NX.FCU_ALT_INC", "type": "manual", "value": 1 },
+      "event_down": { "event": "A32NX.FCU_ALT_DEC", "type": "manual", "value": 1 },
+	  "event_short_press": [{ "event": "A32NX.FCU_ALT_PULL", "type": "manual", "value": 1 }, 
+					        { "event": "Functions/A320/alt-encoder-led-on.jinja2", "type": "condition-file" } ],
+	  "event_long_press": [{ "event": "A32NX.FCU_ALT_PUSH", "type": "manual", "value": 1 }, 
+					       { "event": "Functions/A320/alt-encoder-led-off.jinja2", "type": "condition-file" } ]
+    },
+    {
+      "index": 7,
+	  "event_up": { "event": "A32NX.FCU_VS_INC", "type": "manual", "value": 1 },
+      "event_down": { "event": "A32NX.FCU_VS_DEC", "type": "manual", "value": 1 },
+      "event_press": { "event": "A32NX.FCU_VS_PULL", "type": "manual", "value": 1 },
+	  "event_long_press": { "event": "A32NX.FCU_VS_PUSH", "type": "manual", "value": 1 }
+    },
+    {
+      "index": 8,
+	  "event_up": "COM_RADIO_WHOLE_INC",
+      "event_down": "COM_RADIO_WHOLE_DEC",
+      "alternate_event_up": "COM_RADIO_FRACT_INC",
+      "alternate_event_down": "COM_RADIO_FRACT_DEC",
+      "event_short_press": "{alternate}",
+      "event_long_press": "COM_STBY_RADIO_SWAP"
+    }
+  ],
+  "buttons": [
+    {
+      "index": 1,
+      "event_press": "TOGGLE_FLIGHT_DIRECTOR",
+      "simvar_led": "AUTOPILOT_FLIGHT_DIRECTOR_ACTIVE"
+    },
+    {
+      "index": 2
+    },
+    {
+      "index": 3,
+      "event_press": "PARKING_BRAKES"
+    },
+    {
+      "index": 4,
+      "event_press": "ANTI_ICE_TOGGLE"
+    },
+    {
+      "index": 5,
+      "event_press": [{ "event": "A32NX.FCU_HDG_PUSH", "type": "manual", "value": 1 }, 
+					  { "event": "Functions/A320/hdg-encoder-led-off.jinja2", "type": "condition-file" } ]
+    },
+    {
+      "index": 6
+	},
+    {
+      "index": 7,
+	  "event_press": [{ "event": "A32NX.FCU_ALT_PULL", "type": "manual", "value": 1 }, 
+					  { "event": "Functions/A320/alt-encoder-led-on.jinja2", "type": "condition-file" } ]
+    },
+    {
+      "index": 8,
+      "event_press": "FLAPS_DECR"
+    },
+    {
+      "index": 9, 
+	  "event_short_press": [{ "event": "MobiFlight.A32NX.FCU_AP_1_PUSH", "type": "manual", "value": 1 }, 
+	                        { "event": "Functions/A320/toggle-ap1-led.jinja2", "type": "condition-file" } ],
+	  "event_long_press":   { "event": "Functions/A320/toggle-ap1-led.jinja2", "type": "condition-file" }
+    },
+    {
+      "index": 10,
+	  "event_short_press": [{ "event": "MobiFlight.A32NX.FCU_AP_2_PUSH", "type": "manual", "value": 1 },
+	                        { "event": "Functions/A320/toggle-ap2-led.jinja2", "type": "condition-file" } ],
+	  "event_long_press":   { "event": "Functions/A320/toggle-ap2-led.jinja2", "type": "condition-file" }
+    },
+    {
+      "index": 11,
+	  "event_press": { "event": "MobiFlight.A320_Neo_PFD_BTN_LS_1", "type": "manual", "value": 1 }
+    },
+    {
+      "index": 12,
+      "event_press": { "event": "A32NX.FCU_APPR_PUSH", "type": "manual", "value": 1 }
+    },
+    {
+      "index": 13
+    },
+    {
+      "index": 14
+    },
+    {
+      "index": 15,
+      "event_press": "GEAR_TOGGLE"
+    },
+    {
+      "index": 16,
+      "event_press": "FLAPS_INCR"
+    }
+  ],
+  "faders": [
+    {
+      "index": 1,
+      "event_change": "SPOILERS_SET",
+      "min_value": 16383,
+      "max_value": 0
+    }
+  ],
+  "triggers": [
+    {
+      "trigger_type": "condition-file",
+      "simvar": "GEAR_POSITION",
+      "condition": "Functions/Generic/gear-position-sync.jinja2"
+    },
+	{
+      "trigger_type": "condition-file",
+      "simvar": "GEAR_POSITION",
+      "condition": "Functions/Generic/flaps-position-sync.jinja2"
+    },
+    {
+      "trigger_type": "condition-file",
+      "simvar": "FLAPS_HANDLE_INDEX",
+      "condition": "Functions/Generic/flaps-position-sync.jinja2"
+    }
+  ],
+  "initialization": {
+    "global_variables": [
+      {
+		"name": "AP1_ACTIVE",
+        "value": 0
+      },
+	  {
+		"name": "AP2_ACTIVE",
+        "value": 0
+      },
+	  {
+		"name": "AP1_BUT_IDX",
+        "value": 9
+      },
+	  	  {
+		"name": "AP2_BUT_IDX",
+        "value": 10
+      },
+      {
+        "name": "AP_SPD_ENC_IDX",
+        "value": 4
+      },
+	  {
+        "name": "AP_HDG_ENC_IDX",
+        "value": 5
+      },
+	  {
+        "name": "AP_ALT_ENC_IDX",
+        "value": 6
+      },
+      {
+        "name": "FLAPS_UP_BUT_IDX",
+        "value": 8
+      },
+      {
+        "name": "GEAR_BUT_IDX",
+        "value": 15
+      },
+      {
+        "name": "FLAPS_DN_BUT_IDX",
+        "value": 16
+      }
+    ]
+  }
+}

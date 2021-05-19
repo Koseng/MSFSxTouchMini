@@ -1,0 +1,9 @@
+{% set ap2_active = data.get_global_variable('AP2_ACTIVE') %}
+{% set ap2_button_index = data.get_global_variable('AP2_BUT_IDX') %}
+{% if ap2_active == 0 %}
+	{{ data.set_button_led(ap2_button_index, 1, blink=False) }}
+	{{ data.set_global_variable('AP2_ACTIVE', 1) }}
+{% else %}
+	{{ data.set_button_led(ap2_button_index, 0, blink=False) }}
+	{{ data.set_global_variable('AP2_ACTIVE', 0) }}
+{% endif %}
