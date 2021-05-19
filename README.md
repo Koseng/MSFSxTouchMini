@@ -4,7 +4,7 @@ Installation and Configuration of Behringer X-Touch Mini for Microsoft Flight Si
 ![Picture xTouch](Pics/xTouchPlate.jpg)
 
 ## 3D models for printing
-* [3D models for printing](3dmodels/README.md)
+* [3D models for printing](./3dmodels)
 
 ## Overview
 ![Picture Overview](Pics/overview.png)
@@ -19,14 +19,14 @@ Needed Software:
 
 ## Installation and setup
 Follow those steps:
-* [Installation and setup](installation/README.md)
+* [Installation and setup](./installation)
 
 
 ## Configuration of buttons and knobs
 
 Configuration is done via the files in X-Touch-Mini-FS2020\Configurations
 
-* [Configuration for FlyByWire A320 Dev Version](Configurations/README.MD)
+* [Configuration for FlyByWire A320 Dev Version](./Configurations)
 
 ## Usage
 
