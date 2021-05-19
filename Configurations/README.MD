@@ -1,4 +1,7 @@
-### Configuration
+# Configuration
+
+For configuration download [release package](https://github.com/Koseng/MSFSxTouchMini/releases).
+
 
 ![Picture Panel](../Pics/xtouchTotalOptimal.svg) 
 
