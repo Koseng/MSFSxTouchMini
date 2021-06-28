@@ -1,0 +1,6 @@
+{% set encoder_index = data.get_global_variable('ALTITUDE_ENC_IDX') %}
+{% if data.get_simvar_value('AUTOPILOT_ALTITUDE_LOCK') == 1.0 %}
+    {{ data.set_encoder_led(encoder_index, True) }}
+{% else %}
+    {{ data.set_encoder_led(encoder_index, False) }}
+{% endif %}
